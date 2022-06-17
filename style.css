@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@100&family=Open+Sans:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@300&family=Lexend+Deca:wght@100&family=Open+Sans:wght@200&display=swap');
+
+/*#Front-end Style Guide
+
+#Layout
+
+The designs were created to the following widths:
+
+- Mobile: 375px
+- Desktop: 1440px
+
+## Colors
+
+### Primary
+
+Bright orange: hsl(31, 77%, 52%)
+Dark cyan: hsl(184, 100%, 22%)
+Very dark cyan: hsl(179, 100%, 13%)
+
+### Neutral
+
+Transparent white (paragraphs): hsla(0, 0%, 100%, 0.75)
+Very light gray (background, headings, buttons): hsl(0, 0%, 95%)
+
+## Typography
+
+### Body Copy
+
+- Font size: 15px
+
+### Font
+
+- Family: [Lexend Deca](https://fonts.google.com/specimen/Lexend+Deca)
+- Weights: 400
+
+- Family: [Big Shoulders Display](https://fonts.google.com/specimen/Big+Shoulders+Display)
+- Weights: 700
+*/
+/*body*/
+h2{
+  margin-bottom:5px;
+}
+p{
+  color:#ffffff;
+  margin-top:-10px;
+  font-family: Big Shoulders Display;
+}
+body{
+    background-color: black;
+    font-size: 15px;
+    font-family: "Lexand Deca", "Big Shoulders Display";
+}
+/*FlexContainer*/
+.flex-container {
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    width: 800px;
+    margin: auto;
+
+}
+/*Flexitems*/
+.flex-container > div {
+   
+    margin-top: 10%;
+  margin-bottom:10%;
+  
+  
+  margin-left: 0px;
+    padding: 20px;
+    font-size: 15px;
+    border-radius: 2px;
+    width:180px;
+    height: 300px;
+  }
+  .brightcyan{
+    background-color: hsl(31, 77%, 52%);
+  }
+  .darkcyan{
+    background-color: hsl(184, 100%, 22%); 
+  }
+  .verydarkcyan{
+    background-color: hsl(179, 100%, 13%);
+  }
+button{
+  color: hsl(31, 77%, 52%);
+  border-radius:20px;
+  border-style:none;
+  margin: auto;
+  
+}
+
+/*GRID*/
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  
+  padding: 10px;
+  row-gap: 10px;
+  column-gap: 5px;
+  border-style: none;
+  border-width: 0px;
+  margin: auto;
+}
+.grid-item1 {
+ 
+
+  padding: 60px;
+  
+    grid-column-start: 1;
+    grid-column-end: 3;
+  
+  
+  
+  
+}
+.grid-item3 {
+  padding: 90px;
+  
+    grid-column-start: 1;
+    grid-column-end: 2;
+  
+
+
+  
+}
+.grid-item4 {
+  padding: 20px;
+  
+    grid-column-start: 2;
+    grid-column-end: 4;
+    grid-row-end: 3;
+  
+
+
+  
+}
+.grid-item5{
+  grid-column-start: 2;
+}
